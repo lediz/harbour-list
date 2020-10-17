@@ -4,33 +4,51 @@
 (*NOTE: This is an original work by [Rafał Jopek](https://github.com/rjopek). Quite unexpectedly, I "inherited" this repository by him, (still, I don't know the reason he had transfered it to me! <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Twemoji2_1f914.svg/480px-Twemoji2_1f914.svg.png" height="15" width="15" alt="wondering" title="inheritance">), so, everything below this note, must be credited to him; I have kept this list here, in hope it will be useful for harbour users*). 
 -->
 [*NOTE: This is an original work by [Rafał Jopek](https://github.com/rjopek). All the info below this paragraph must be credited to him; This list is placed here, in hope that it may be useful for harbour users.*] 
+
+
+
 #
 Below is a list of open source Harbour, xHarbour, Clipper - related projects that can be found on GitHub.
 
+### Contribute!
 
-#### Contributing
-
-If you'd like to add a repository to the list, please [create an Issue](https://github.com/rjopek/harbour-list/issues), or fork this repository and submit a pull request.
-
--------
+- If you own or know any repository related to `Harbour` programming toolset, please consider sharing the link with the community.   
+You can do it quite easy by:
+   - [creating an Issue](https://github.com/Petewg/harbour-list/issues) 
+   - [forking this repository](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) and [creating a pull request](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).
+#
 
 # Table of Contents.
 
-[Harbour 3.0](https://sourceforge.net/projects/harbour-project/files/)
+#### HARBOUR REPOSITORIES
 
-[Harbour 3.2](https://github.com/harbour/core)
+[Harbour 3.2 @ GitHub](https://github.com/harbour/core)
 
-[Harbour 3.4](https://github.com/vszakats/harbour-core)
+[Harbour 3.4 @ GitHub](https://github.com/vszakats/harbour-core)
+
+[Harbour ready to use binaries (@ Sourceforge)](https://sourceforge.net/projects/harbour-project/files/)
+
+
 
 #### Harbour Functions Dictionary
 - Pete [This is an alphabetical list of Harbour functions](https://github.com/Petewg/harbour-core/wiki)
 - Juan Luis Gamero [Documentation for the Harbour Languaje](https://github.com/zgamero/sandbox/wiki)
 
+#### Books
+- [Clipper Tutorial: a Guide to Open Source Clipper(s)](https://en.wikibooks.org/wiki/Clipper_Tutorial:_a_Guide_to_Open_Source_Clipper(s))
+- [Enchiridion of Harbour](https://github.com/Petewg/HarbourEnchiridion) (in the making...)
+- [Application Development with Harbour](https://en.wikibooks.org/wiki/Application_Development_with_Harbour) (partially incomplete)
+- [Application Development with Harbour/Paradigms](https://en.wikibooks.org/wiki/Application_Development_with_Harbour/Paradigms) (a short text)
+
+
 #### Graphical user interface
 
 - Alexander S.Kresin [HDroidGUI - Android GUI framework for Harbour](https://github.com/alkresin/HDroidGUI)
 - Alexander S.Kresin [A server application, providing GUI service.](https://github.com/alkresin/guiserver)
+- Antonino Perricone [Harbour binding for Ultralight UI](https://github.com/APerricone/HBUltralight)
 - Ernad Husremović [No description, website, or topics provided](https://github.com/hernad/harbour_hwgui)
+- [Harbour MiniGUI Extended Edition](https://www.hmgextended.org/)
+- [HMG official](https://sites.google.com/site/hmgweb/) (see also, [this...](https://www.hmgforum.com/viewtopic.php?f=2&t=2))
 - Marcos Antonio Gambeta [HWGUIQt - GUI library compatible with HWGUI](https://github.com/marcosgambeta/HWGUIQt)
 - Marcos Antonio Gambeta [KDE4xHb - KDE 4 for Harbour and xHarbour](https://github.com/marcosgambeta/KDE4xHb)
 - Marcos Antonio Gambeta [KDE5xHb - KDE 5 for Harbour and xHarbour](https://github.com/marcosgambeta/KDE5xHb)
@@ -46,21 +64,32 @@ If you'd like to add a repository to the list, please [create an Issue](https://
 
 #### Apache HTTP Server
 - Antonio Linares, FiveTechSoft [Apache mod for Harbour](https://github.com/FiveTechSoft/mod_harbour)
+- listings of [mod harbour websites](http://winhotel.space/modharbour/modharbouronline.prg)
+- Harbour for [Web Apps](https://www.mod-harbour.com/)
 
 #### Text user interface
 
 - Teo Fonrouge [Text User Interface Library for the Harbour compiler](https://github.com/tfonrouge/HBTui)
+- e-Lama [Library for Harbour programming language which helps in cmd-gui (CUI) development](https://github.com/e-Lama/libgui)
 
 #### Tools and libraries
 
 - Alexander S.Kresin [letodb](https://github.com/alkresin/letodb)
 - Antonino Perricone [extension for visual studio code about harbour programming language](https://github.com/APerricone/harbourCodeExtension)
+- Antonino Perricone [DBF table viewer for VSCode](https://github.com/APerricone/vscode-dbf) This extension allow to view DBF table file file, usually created with Clipper, Harbour or Visual Fox Pro. :new:
 - Antonio Linares, FiveTechSoft [A dBase alike app for Android and iOS developed with Harbour and QT](https://github.com/FiveTechSoft/fivetouch)
 - Antonio Linares, FiveTechSoft [RAD for the Web using Harbour and FiveWin syntax](https://github.com/FiveTechSoft/fiveweb)
 - elchs [LetoDBf - LetoDB fork](https://github.com/elchs/LetoDBf)
+- Eric Lendvai [Harbour_ORM](https://github.com/EricLendvai/Harbour_ORM) a method to access and manipulate data using objects, instead of direct access to SQL backends. :new:
 - Fernando Yurisich [OOHG_Samples - Code samples related to Object Oriented Harbour GUI (OOHG) library](https://github.com/fyurisich/OOHG_Samples)
+- FiveTechSoft [Harbour builder](https://github.com/FiveTechSoft/Harbour_builder/blob/master/.github/workflows/harbour_bcc_64.yml) "Harbour builder builds all Harbour flavours automatically using GitHub Actions"
+- Riztan Gutierrez [hbtelegram](https://github.com/riztan/hbtelegram) Class to facilitate the development of [Telegram messenger](https://telegram.org/) bot from Harbour. :new:
+- teamQPM [QPM (QAC based Project Manager)](https://github.com/teamQPM/qpm) "project manager for software applications based on Harbour..."
 - Teo Fonrouge [hbmongoc - MongoDb C driver for Harbour language (mongo-c-driver)](https://github.com/tfonrouge/hbmongoc)
 - Teo Fonrouge [oordb - Harbour OORDB is a Object Oriented Relational Database](https://github.com/tfonrouge/oordb)
+
+
+
 
 #### Other systems, applications
 
@@ -71,6 +100,7 @@ If you'd like to add a repository to the list, please [create an Issue](https://
 - Alexander S.Kresin [hdcalcul - Simple Harbour calculator sample for HDroidGUI](https://github.com/alkresin/hdcalcul)
 - Alexander S.Kresin [h4aFirstApp - First attempt to create working Harbour application for Android](https://github.com/alkresin/h4aFirstApp)
 - Alexander S.Kresin [libharbour4a - Just a set of makefiles to build libharbour.so with Android NDK tools](https://github.com/alkresin/libharbour4a)
+- Andres Ortiz Diaz [Harbour with MySQL](http://clipper64bits.blogspot.com/p/by-www_5.html)
 - Arthur Helfstein Fragoso [Protheus-Include - Protheus Header files](https://github.com/imsys/Protheus-Include)
 - Carlos Britos [GUI library written in Harbour OOP sintax](https://github.com/asistex/ighoo)
 - Carlos Britos [sublime text 3 package for harbour language.](https://github.com/asistex/Sublime-Text-harbour-Package)
@@ -83,7 +113,6 @@ If you'd like to add a repository to the list, please [create an Issue](https://
 - Ernad Husremović [atom-language-harbour](https://github.com/hernad/atom-language-harbour)
 - fernandoathayde [hbnfe - Automatically exported from code.google.com/p/hbnfe](https://github.com/fernandoathayde/hbnfe)
 - giovanyvecchi [Class tAds For development of applications built in harbour](https://github.com/giovanyvecchi/tAdsGit)
-- Lailton [FiveWeb for Harbour - ( win / linux / mac )](https://github.com/lailton)
 - foldiii [websocket - Harbour websocket extension](https://github.com/foldiii/websocket)
 - FTrautwein [hblibxlsxwriter - libxlsxwriter wrappers for Harbour](https://github.com/FTrautwein/hblibxlsxwriter)
 - FTrautwein [xlsxwriter - Excel xlsx file writer for Harbour using Python and XlsxWriter](https://github.com/FTrautwein/xlsxwriter)
@@ -109,6 +138,7 @@ If you'd like to add a repository to the list, please [create an Issue](https://
 - Rafael Carmona [Fast - Fast Open Source](https://github.com/rafathefull/Fast)
 - Rafael Carmona [harbour - Definicion de lenguaje clipper para Sublime Text 2 ](https://github.com/rafathefull/harbour)
 - Rafał Jopek [harbour-commander - File manager](https://github.com/rjopek/harbour-commander)
+- Rafał Jopek and friends [How TO start programming in Harbour](https://github.com/rjopek/howto)
 - Riztan Gutierrez [hbtfhka - Modulo Harbour para Fiscalizador de "The Factory HKA"](https://github.com/riztan/hbtfhka)
 - Riztan Gutierrez [puy_webserver - Servidor web de soporte a TPuy](https://github.com/riztan/tpuy_webserver)
 - Rossine [prj_teste - Projeto teste ](https://github.com/Rossine/prj_teste)
@@ -132,10 +162,13 @@ If you'd like to add a repository to the list, please [create an Issue](https://
 
 - [Facebook Harbour Project](https://www.facebook.com/groups/harbour.project/)
 
-#### Google Groups Help
+#### Users' Groups and Mailing Lists
 
 - [Harbour Users](https://groups.google.com/forum/#!forum/harbour-users)
 - [Harbour Developers](https://groups.google.com/forum/#!forum/harbour-devel)
+- [Old Mailing List](https://www.mail-archive.com/harbour@harbour-project.org/) (frozen)
+#
+- [Clipper users' group](https://groups.google.com/forum/#!forum/comp.lang.clipper). Yes, there do exist clipperheads! and so were we... (at least quite a few of us,  once upon...).
 
 #### Archived
 
